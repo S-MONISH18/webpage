@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AcmeCorp</title>
+    <link rel="stylesheet" href="styles.css">
+    <script src="https://unpkg.com/lucide@latest"></script>
+</head>
+<body>
+    <div class="flex-col min-h-screen">
+        <header class="bg-primary text-primary-foreground">
+            <div class="container">
+                <a href="/" class="logo">AcmeCorp</a>
+                <nav class="desktop-nav">
+                    <a href="#about">About</a>
+                    <a href="#services">Services</a>
+                    <a href="#contact">Contact</a>
+                </nav>
+                <div class="header-icons">
+                    <i data-lucide="search"></i>
+                    <i data-lucide="menu" class="mobile-menu-icon"></i>
+                </div>
+            </div>
+        </header>
+
+        <main>
+            <section class="hero">
+                <div class="hero-content">
+                    <h1>Discover AcmeCorp</h1>
+                    <p>Your Trusted Partner in Innovation</p>
+                </div>
+            </section>
+
+            <section id="about" class="bg-secondary">
+                <div class="container">
+                    <h2>About Us</h2>
+                    <div class="about-content">
+                        <div class="about-text">
+                            <p>AcmeCorp is a leading innovator in technology solutions, dedicated to transforming businesses through cutting-edge software and services. With over a decade of experience, we've helped countless organizations streamline their operations and achieve their goals.</p>
+                            <p>Our team of experts is committed to delivering excellence in every project, ensuring that our clients stay ahead in today's fast-paced digital landscape.</p>
+                        </div>
+                        <div class="about-image">
+                            <img src="/placeholder.svg?height=400&width=600" alt="About us image">
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <section id="services">
+                <div class="container">
+                    <h2>Our Services</h2>
+                    <div class="services-grid">
+                        <!-- Repeat this div 8 times -->
+                        <div class="service-item">
+                            <img src="/placeholder.svg?height=300&width=300&text=Service1" alt="Service 1">
+                        </div>
+                        <!-- ... -->
+                    </div>
+                </div>
+            </section>
+        </main>
+
+        <footer id="contact" class="bg-primary text-primary-foreground">
+            <div class="container">
+                <div class="footer-content">
+                    <div class="contact-info">
+                        <h3>Contact Us</h3>
+                        <ul>
+                            <li><i data-lucide="phone"></i> +1 (555) 123-4567</li>
+                            <li><i data-lucide="mail"></i> info@acmecorp.com</li>
+                            <li><i data-lucide="map-pin"></i> 123 Tech Street, Innovation City, 12345</li>
+                        </ul>
+                    </div>
+                    <div class="quick-links">
+                        <h3>Quick Links</h3>
+                        <ul>
+                            <li><a href="#">Privacy Policy</a></li>
+                            <li><a href="#">Terms of Service</a></li>
+                            <li><a href="#">Careers</a></li>
+                        </ul>
+                    </div>
+                    <div class="social-links">
+                        <h3>Follow Us</h3>
+                        <div class="social-icons">
+                            <a href="#"><i data-lucide="facebook"></i></a>
+                            <a href="#"><i data-lucide="twitter"></i></a>
+                            <a href="#"><i data-lucide="instagram"></i></a>
+                        </div>
+                    </div>
+                </div>
+                <div class="copyright">
+                    <p>&copy; 2023 AcmeCorp. All rights reserved.</p>
+                </div>
+            </div>
+        </footer>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
